@@ -1,0 +1,20 @@
+{
+  "name": "sntaks/stk",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "sntaks",
+      "email": "info@sntaks.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  }
+}
